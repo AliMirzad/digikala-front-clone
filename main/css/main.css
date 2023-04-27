@@ -1,0 +1,11 @@
+@import "./partials/settings.css";
+@import './partials/header.css';
+@import './partials/top-category.css';
+@import './partials/top-slider.css';
+@import './partials/second-category.css';
+@import './partials/amazing-slider.css';
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
