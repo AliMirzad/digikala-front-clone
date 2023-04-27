@@ -129,7 +129,7 @@
     <!-- end category -->
     <!-- start top-slider -->
     <div class="top-slider">
-      <div class="swiper mySwiper">
+      <div class="swiper top-slider-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./img/top-slider/In-Story(9)-1682160378.jpeg" alt="">
@@ -207,69 +207,77 @@
     </div>
     <!-- end second-cateory -->
     <!-- start amazing-slider -->
-    <div class="amazing">
-      <div class="amazing-slider-top">
-        <div class="swiper amazing-slider">
+    <div class="amz-slider">
+      <div class="amz-slider-inner">
+        <div #swiperRef="" class="swiper amz-slider-swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide test">
-              <div class="amz-first-text">
-                <span class="price">پیشنهاد</span>
-              </div>
-              <div class="amz-first-text">
-                <span class="price">شگفت</span>
-              </div>
-              <div class="amz-first-text">
-                <span class="price">انگیز</span>
-              </div>
-              <div class="amz-first-img">
-                <img src="./img/amazing-slider/box.png" alt="">
+            <div class="swiper-slide">
+              <div class="amz-slider-first">
+                <img class="amz-first-img1" src="./img/amazing-slider/Amazings.svg" alt="">
+                <img class="amz-first-img2" src="./img/amazing-slider/box.png" alt="">
+                <div class="amz-first-show-all">
+                  نمایش همه <i class="fa-solid fa-angle-left"></i>
+                </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="amz-img">
+              <div class="amz-slider-img">
                 <img src="./img/amazing-slider/07ab8af7002d2880b52d9b6b1fb37b390f6cb4f7_1678614147.jpg" alt="">
               </div>
-              <div class="amz-price">
-                <span class="price">تومان 850,000</span>
+              <div class="amz-slider-price">
+                ۳,۶۹۹,۰۰۰ تومان
               </div>
-              <div class="amz-offer">
-                <span class="discont">900,000</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="amz-img">
-                <img src="./img/amazing-slider/120949317.jpg" alt="">
-              </div>
-              <div class="amz-price">
-                <span class="price">تومان 850,000</span>
-              </div>
-              <div class="amz-offer">
-                <span class="discont">900,000</span>
+              <div class="amz-slider-discont">
+                ۴,۳۵۰,۰۰۰
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="amz-img">
-                <img src="./img/amazing-slider/1e90fab24326c0afdfbc3b68b25329d9f106479c_1675076355.jpg" alt="">
+              <div class="amz-slider-img">
+                <img src="./img/amazing-slider/4865679.jpg" alt="">
               </div>
-              <div class="amz-price">
-                <span class="price">تومان 850,000</span>
+              <div class="amz-slider-price">
+                ۳,۶۹۹,۰۰۰ تومان
               </div>
-              <div class="amz-offer">
-                <span class="discont">900,000</span>
+              <div class="amz-slider-discont">
+                ۴,۳۵۰,۰۰۰
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="amz-img">
+              <div class="amz-slider-img">
                 <img src="./img/amazing-slider/4206e3ffd6795864ae8ebd52cef3eb9d0bd6d695_1665504420.jpg" alt="">
               </div>
-              <div class="amz-price">
-                <span class="price">تومان 850,000</span>
+              <div class="amz-slider-price">
+                ۳,۶۹۹,۰۰۰ تومان
               </div>
-              <div class="amz-offer">
-                <span class="discont">900,000</span>
+              <div class="amz-slider-discont">
+                ۴,۳۵۰,۰۰۰
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="amz-slider-img">
+                <img src="./img/amazing-slider/1e90fab24326c0afdfbc3b68b25329d9f106479c_1675076355.jpg" alt="">
+              </div>
+              <div class="amz-slider-price">
+                ۳,۶۹۹,۰۰۰ تومان
+              </div>
+              <div class="amz-slider-discont">
+                ۴,۳۵۰,۰۰۰
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="amz-slider-img">
+                <img src="./img/amazing-slider/120949317.jpg" alt="">
+              </div>
+              <div class="amz-slider-price">
+                ۳,۶۹۹,۰۰۰ تومان
+              </div>
+              <div class="amz-slider-discont">
+                ۴,۳۵۰,۰۰۰
               </div>
             </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
@@ -280,7 +288,7 @@
   <script src="./node_modules/swiper/swiper-bundle.min.js">
   </script>
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".top-slider-swiper", {
       pagination: {
         el: ".swiper-pagination",
       },
@@ -290,13 +298,65 @@
     var swiper = new Swiper(".amazing-slider", {
       slidesPerView: 5,
       centeredSlides: true,
-      spaceBetween: 2,
+      spaceBetween: 0,
       grabCursor: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
     });
+  </script>
+  <script>
+    var swiper = new Swiper(".amz-slider-swiper", {
+      slidesPerView: 4,
+      centeredSlides: false,
+      spaceBetween: 5,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document
+      .querySelector(".prepend-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document
+      .querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
   </script>
 </body>
 

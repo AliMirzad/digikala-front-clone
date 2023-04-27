@@ -5,7 +5,11 @@
 @import './partials/second-category.css';
 @import './partials/amazing-slider.css';
 
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
+@font-face {
+    font-family: IranYekan;
+    src: url(../font/fa/iranyekanwebbold.cfb6e26c.eot);
+    src: url(../font/fa/iranyekanwebbold.cfb6e26c.otf);
+    src: url(../font/fa/iranyekanwebbold.cfb6e26c.ttf);
+    src: url(../font/fa/iranyekanwebbold.cfb6e26c.woff);
+    src: url(../font/fa/iranyekanwebbold.cfb6e26c.woff2);
+}

@@ -39,7 +39,7 @@ header > div.header-middle-search > div.search > div.search-form {
   border: unset;
   outline: unset;
   padding-right: 10px;
-  /* font-family: ; */
+  font-family: IranYekan;
   font-size: 12px;
   font-weight: bold;
   border-radius: 10px;
@@ -52,7 +52,7 @@ header > div.header-middle-search > div.search > div.search-form > input[type="s
   border: unset;
   outline: unset;
   padding-right: 10px;
-  /* font-family: ; */
+  font-family: IranYekan;
   font-size: 12px;
   font-weight: bold;
   border-radius: 10px;

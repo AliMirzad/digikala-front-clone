@@ -1,15 +1,14 @@
 div.top-slider {
   width: 100%;
   height: 400px;
-  background-color: aquamarine;
 }
 
-.swiper {
+div.top-slider .swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+div.top-slider .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -18,7 +17,7 @@ div.top-slider {
   align-items: center;
 }
 
-.swiper-slide img {
+div.top-slider .swiper-slide img {
   display: block;
   width: 100%;
   height: inherit;

@@ -1,43 +1,132 @@
-div.amazing {
+div.amz-slider {
   width: 100%;
   height: 280px;
+  font-family: IranYekan;
 }
 
-div.amazing > div.amazing-slider-top {
+div.amz-slider > div.amz-slider-inner {
   width: 80%;
   height: inherit;
   background-color: crimson;
-  margin: 0 auto;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
-div.test {
-    background-color: crimson;
+div.amz-slider .swiper {
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
 }
 
-div.amz-first-img > img {
-  margin: auto;
-  padding-top: 50px;
-  width: 150px;
-}
-
-div.amz-img > img {
-  margin: auto;
-  padding-top: 50px;
-  width: 150px;
-}
-
-div.amz-price > span {
-  font-size: 20px;
-  /* font-family: ; */
-}
-
-div.amz-offer > span {
+div.amz-slider .swiper-slide {
+  text-align: center;
   font-size: 18px;
-  /* font-family: ; */
-  text-decoration: line-through;
+  background: #fff;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 20% !important;
 }
 
-/* .test {
-  flex-flow: column wrap;
-} */
+div.amz-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.amz-slider .swiper {
+  width: 100%;
+  display: inline-block;
+  margin: 15px 20px;
+}
+
+div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-first {
+  width: 100%;
+  height: inherit;
+  background-color: crimson !important;
+}
+
+div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-first
+  > img.amz-first-img1 {
+  width: 80px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-first
+  > img.amz-first-img2 {
+  width: 130px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-first
+  > div.amz-first-show-all {
+  padding-top: 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-img {
+    margin-top: 0px !important;
+    /* height: in; */
+  }
+
+  div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-img > img {
+    /* display: block !important; */
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-discont {
+    font-size: 16px;
+  }
+
+  div.amz-slider
+  > div.amz-slider-inner
+  > div.amz-slider-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.amz-slider-discont {
+    text-decoration: line-through;
+    color: #c3c3ce;
+    font-size: 16px;
+  }

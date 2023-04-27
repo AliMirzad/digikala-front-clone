@@ -5,7 +5,7 @@ div.category > div.top-category {
 }
 
 div.category > div.top-category > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 div.category > div.top-category > a > div {
@@ -18,15 +18,15 @@ div.category > div.top-category > a > div {
 }
 
 div.category > div.top-category > a > div > img {
-    width: 100px;
-    border-radius: 50%;
-    padding: 2px;
-    border: 2px solid red;
+  width: 100px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid red;
 }
 
-div.category > div.top-category > a > div > img, div.category > div.top-category > a > div > h5 {
-    /* font-family: ; */
-    font-size: 12px;
-    color: black;
+div.category > div.top-category > a > div > img,
+div.category > div.top-category > a > div > h5 {
+  font-family: IranYekan;
+  font-size: 12px;
+  color: black;
 }
-
