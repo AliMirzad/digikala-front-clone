@@ -26,6 +26,7 @@ div.amz-slider .swiper-slide {
   justify-content: center;
   align-items: center;
   width: 20% !important;
+  border-radius: 2px;
 }
 
 div.amz-slider .swiper-slide img {
@@ -38,7 +39,7 @@ div.amz-slider .swiper-slide img {
 div.amz-slider .swiper {
   width: 100%;
   display: inline-block;
-  margin: 15px 20px;
+  margin: 15px 0px;
 }
 
 div.amz-slider

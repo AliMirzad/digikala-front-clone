@@ -4,6 +4,8 @@
 @import './partials/top-slider.css';
 @import './partials/second-category.css';
 @import './partials/amazing-slider.css';
+@import './partials/amz-market.css';
+@import './partials/under-amz-market.css';
 
 @font-face {
     font-family: IranYekan;
