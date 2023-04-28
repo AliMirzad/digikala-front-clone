@@ -1,23 +1,23 @@
 div.clear {
   clear: both;
 }
-div.under-amz-market {
+
+div.under-amz {
   width: 100%;
   height: 235px;
 }
 
-div.under-amz-market > div.under-amz {
+div.under-amz > div.under-amz-inner {
   width: 80%;
-  height: 235px;
-  margin: 0 auto;
-}
-
-div.under-amz-market > div.under-amz > div.under-imz-images {
+  height: inherit;
   display: inline-block;
-  margin: 0 1px;
+  margin: 20px 10%;
+  text-align: center;
 }
 
-div.under-amz-market > div.under-amz > div.under-imz-images > img {
+div.under-amz > div.under-amz-inner > img {
+  width: 23.5%;
+  height: inherit;
   border-radius: 10px;
-  height: 235px;
+  margin: 0 10px;
 }

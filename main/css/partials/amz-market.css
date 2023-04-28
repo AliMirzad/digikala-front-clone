@@ -25,7 +25,7 @@ div.amz-market > div.amz-market-inner > div.amz-market-basket {
 }
 
 div.amz-market > div.amz-market-inner > div.amz-market-basket > img {
-  margin-right: 10px;
+  margin-right: 50px;
   width: 80px;
 }
 
@@ -46,7 +46,7 @@ div.amz-market > div.amz-market-inner > div.make-it-middle {
   justify-content: center;
   position: relative;
   display: flex;
-  margin-right: 10px;
+  margin-right: 50px;
 }
 
 div.amz-market
@@ -65,7 +65,7 @@ div.amz-market
   > div.amz-market-offer-items
   > div.amz-market-offer-items-inner {
   float: right;
-  margin-right: 50px;
+  margin-right: 250px;
 }
 
 div.amz-market
