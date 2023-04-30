@@ -6,7 +6,7 @@ div.amz-market {
 }
 
 div.amz-market > div.amz-market-inner {
-  width: 80%;
+  width: 98%;
   height: inherit;
   margin: 0 auto;
   background-image: url("../../img/amz-market/freshPattern.svg");
@@ -46,7 +46,7 @@ div.amz-market > div.amz-market-inner > div.make-it-middle {
   justify-content: center;
   position: relative;
   display: flex;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 div.amz-market
@@ -65,7 +65,7 @@ div.amz-market
   > div.amz-market-offer-items
   > div.amz-market-offer-items-inner {
   float: right;
-  margin-right: 250px;
+  margin-right: 70px;
 }
 
 div.amz-market

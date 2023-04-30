@@ -1,5 +1,57 @@
-div.digikala-category {
+div.digikala-category-first-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: IranYekan;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-1,
+div.digikala-category > div.digikala-category-items > div.part-2 {
     width: 100%;
-    height: 100px;
-    background-color: red;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: IranYekan;
+    flex-wrap: wrap;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-1 > div.digikala-category-image-text,
+div.digikala-category > div.digikala-category-items > div.part-2 > div.digikala-category-image-text {
+    margin-bottom: 50px;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-1 > div.digikala-category-image-text > img,
+div.digikala-category > div.digikala-category-items > div.part-2 > div.digikala-category-image-text > img {
+    text-align: center;
+    width: 180px;
+
+}
+
+div.digikala-category > div.digikala-category-items > div.part-1 > div.digikala-category-image-text > h5,
+div.digikala-category > div.digikala-category-items > div.part-2 > div.digikala-category-image-text > h5 {
+    text-align: center;
+    font-size: 12px;
+    width: 180px;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-3 {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-3 > div {
+    margin: 0px auto;
+    width: 45%;
+}
+
+div.digikala-category > div.digikala-category-items > div.part-3 > div > img {
+    width: 600px;
+    border-radius: 20px;
 }

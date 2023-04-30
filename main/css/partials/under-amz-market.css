@@ -8,16 +8,15 @@ div.under-amz {
 }
 
 div.under-amz > div.under-amz-inner {
-  width: 80%;
+  width: 100%;
   height: inherit;
   display: inline-block;
-  margin: 20px 10%;
   text-align: center;
 }
 
 div.under-amz > div.under-amz-inner > img {
-  width: 23.5%;
+  width: 23.2%;
   height: inherit;
   border-radius: 10px;
-  margin: 0 10px;
+  margin: 0 2px;
 }
