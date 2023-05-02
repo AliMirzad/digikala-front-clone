@@ -43,11 +43,12 @@ div.digikala-category > div.digikala-category-items > div.part-3 {
     height: 260px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 20px;
 }
 
 div.digikala-category > div.digikala-category-items > div.part-3 > div {
-    margin: 0px auto;
     width: 45%;
 }
 
