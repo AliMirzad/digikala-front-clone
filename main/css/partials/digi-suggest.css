@@ -1,0 +1,25 @@
+div.digi-suggest .swiper {
+  width: 100%;
+  height: 311px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid black;
+  padding: 0 !important;
+}
+
+div.digi-suggest .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #c05050;
+  height: calc((100% - 30px) / 2) !important;
+  width: 200px !important;
+
+  /* Center slide text vertically */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+div.digi-suggest img {
+  width: 100px;
+}
